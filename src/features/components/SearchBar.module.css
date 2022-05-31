@@ -1,0 +1,14 @@
+.searchBar {
+    position: absolute;
+    background-color: white;
+    width: 20vw;
+    border: 2px solid gray;
+    padding: 0.2rem;
+}
+
+.input {
+    background-color: gray;
+    border: none;
+    border-radius: 2px;
+    color: whitesmoke;
+}

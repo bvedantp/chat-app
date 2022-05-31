@@ -1,0 +1,18 @@
+.chatThread {
+	width: 100%;
+	padding: 0 20px 0 0;
+	list-style: none;
+	overflow-y: scroll;
+	height: 70vh;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+
+
+	-ms-overflow-style: none; 
+	scrollbar-width: none;  
+}
+ 
+.chatThread::-webkit-scrollbar {
+	display: none;
+}

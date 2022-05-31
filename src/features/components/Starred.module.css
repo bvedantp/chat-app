@@ -1,0 +1,55 @@
+.messageBox {
+	position: relative;
+	color: black;
+    height: 100%;
+    margin: 1rem;
+}
+
+.chatThread {
+	width: 100%;
+	list-style: none;
+	overflow-y: scroll;
+	-ms-overflow-style: none; 
+	scrollbar-width: none;  
+}
+ 
+.chatThread::-webkit-scrollbar {
+	display: none;
+}
+
+.chatList {
+	width: max-content;
+	clear: both;
+	padding: 6px 14px 4px 8px;
+	margin: 0 0 20px 0;
+	border-radius: 10px;
+	background-color: lightblue;
+}
+
+.messageBox:hover .hoverButtons {
+	display: flex;
+}
+
+.time {
+	font-size: 0.5em;
+}
+
+.message {
+	font-size: 0.8em;
+}
+
+.hoverButtons {
+	display: none;
+	position: absolute;
+	top: -20px;
+	right: 0px;
+	color: darkslategray;
+	background-color: gray;
+}
+
+.hoverButtons button {
+	font-size: 0.6em;
+	border: none;
+	padding: 5px;
+	cursor: pointer;
+}

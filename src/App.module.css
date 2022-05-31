@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    min-height: 100%;
+    min-width: 100vw;
+}
+
+.toplayer {
+    display: flex;
+    padding: 0.7rem 4rem;
+    background-color: blue;
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 0.8em;
+}
+
+.layout {
+    display: flex;
+    flex: 1 0 auto;
+    gap: 1rem;
+}
+

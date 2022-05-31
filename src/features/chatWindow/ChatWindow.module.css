@@ -1,0 +1,31 @@
+.chatWindow {
+    width: 75vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.topPart {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin-top: 12px;
+    border-bottom: 2px solid gray;
+    background-color: white;
+}
+
+.topButton {
+    cursor: pointer;
+    margin: 0;
+    font-weight: 800;
+    font-size: 0.9em;
+    height: 40px;
+}
+
+.topButton:hover {
+    border-bottom: 4px solid blue;
+}

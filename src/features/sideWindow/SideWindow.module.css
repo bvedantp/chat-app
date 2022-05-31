@@ -1,0 +1,71 @@
+.container {
+    font-size: 0.8em;
+    min-width: 20vw;
+    border-right: 2px solid gray;
+    background-color: gray;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 2px solid gray;
+    background-color: white;
+}
+
+.allChats {
+    margin-right: auto;
+    margin-left: 1rem;
+    font-weight: 800;
+}
+
+.newChat {
+    color: whitesmoke;
+    background-color: blue;
+    padding: 8px;
+    font-size: 0.8em;
+    border: none;
+}
+
+.chatHead {
+    background-color: white;
+    padding: 1rem;
+    position: relative;
+}
+
+.chatHead:before {
+    content:attr(dataletter);
+    display:inline-block;
+    font-size:1em;
+    width:2.5em;
+    height:2.5em;
+    line-height:2.5em;
+    text-align:center;
+    border-radius:50%;
+    background:blue;
+    vertical-align:middle;
+    margin-right:1em;
+    color:white;
+}
+
+.spandan {
+    position: absolute;
+    top: 4vh;
+    left: 6vw;
+}
+
+.spandan span {
+    font-size: 0.7em;
+}
+
+.chatHead div {
+    position: absolute;
+    left: 4vw;
+    bottom: 3vh;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: greenyellow;
+}
